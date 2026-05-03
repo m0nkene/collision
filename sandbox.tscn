@@ -1,0 +1,14 @@
+[gd_scene format=3 uid="uid://cvfab6gs2ud57"]
+
+[ext_resource type="Texture2D" uid="uid://bq00d3uedc2hn" path="res://Assets/Background.png" id="1_3h184"]
+[ext_resource type="Script" uid="uid://c7cgeaduk0b6h" path="res://sandbox.gd" id="1_cojph"]
+
+[node name="Sandbox" type="Node3D" unique_id=962750490]
+script = ExtResource("1_cojph")
+
+[node name="TextureRect" type="TextureRect" parent="." unique_id=733647016]
+offset_right = 40.0
+offset_bottom = 40.0
+texture = ExtResource("1_3h184")
+
+[node name="HTTPRequest" type="HTTPRequest" parent="." unique_id=1109069900]
